@@ -1,0 +1,29 @@
+1. What is Swing?
+Swing is a part of Java Foundation Classes (JFC) used to create GUI-based desktop applications in Java.
+
+2. Difference between AWT and Swing?
+AWT is heavyweight and platform-dependent; Swing is lightweight and platform-independent with more advanced components.
+
+3. What is ActionListener?
+It’s an interface in Java used to handle action events like button clicks.
+
+4. How to manage layouts in Java?
+Java uses Layout Managers like BorderLayout, FlowLayout, GridLayout to control component placement.
+
+5. What is the Event Dispatch Thread?
+It’s the thread responsible for handling GUI events in Java Swing. All UI updates should occur on this thread.
+
+6. What are the GUI components in Java?
+Common Swing components include JFrame, JPanel, JButton, JLabel, JTextField, JTable, etc.
+
+7. How to handle multiple events?
+By using different listener interfaces (like MouseListener, KeyListener) or combining multiple event listeners in one method.
+
+8. What is JPanel vs JFrame?
+JFrame is a top-level window with title and borders. JPanel is a generic container used inside a frame.
+
+9. How to add scroll bar in GUI?
+Use `JScrollPane` and wrap the component (like `JList` or `JTextArea`) inside it.
+
+10. What is MVC architecture?
+MVC stands for Model-View-Controller. It separates data logic (Model), UI (View), and interaction handling (Controller).
